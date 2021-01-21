@@ -21,8 +21,7 @@ body{
 nav li a{
   text-decoration: none;
   color: #fff;
-  font-size: 14px;
-  line-height: 82px;
+  font-size: 12px;
 }
 
 h2{
@@ -32,31 +31,48 @@ h2{
 
 div.bottone{
   display: inline-block;
-  padding: 20px 0;
   color: white;
+  padding: 0px 0;
+  border: 2px solid white;
+  border-radius: 8px;
+}
+
+div.bottone.pieno{
   background-color: #7cbb02;
-  border-radius: 2px;
+  border-color: #7cbb02;
+}
+
+
+div.bottone.grande{
+  padding: 28px 0;
 }
 
 div.bottone a{
   text-decoration: none;
-  padding: 20px;
+  padding: 20px 20px;
   color: #fff;
 }
+
+div.bottone.grande a{
+  padding: 28px 28px;
+}
+
 /* /typo */
 
 
 /* regole per sezione blu */
 
 header{
-  padding-bottom: 50px;
+  padding-top: 10px;
+  padding-bottom: 30px;
+
 }
 
 .main-container{
   width:80%;
   height: 100%;
   margin:auto;
-  border: solid 1px white;
+  /* border: solid 1px white; */
   position:relative;
   /* height: 80vh; */
 }
@@ -72,13 +88,16 @@ height: 100%;
 
 div.box, nav.box{
   float: left;
+  position:relative;
+  top: 50%;
+  transform: translate(0%, -50%;);
 
 }
 
 div.logo{
   width:10%;
-  padding: 20px 0;
 }
+
 
 nav.link-nav{
   width:55%;
@@ -87,12 +106,16 @@ nav.link-nav{
 
 nav.button-nav{
   width:35%;
+
 }
 
 nav li{
   list-style: none;
   display: inline-block;
   margin-right: 20px;
+  line-height: 42px;
+
+
 
 }
 
@@ -118,7 +141,11 @@ nav li{
 }
 
 div.wide-container{
-  height: 400px;
+  height: 60vh;
+  background-image: url(../img/background-header.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right bottom;
 }
 
 .blue{
