@@ -29,16 +29,26 @@ h2{
   font-size: 50px;
 }
 
+h3{
+  font-size:30px;
+  margin-bottom: 10px;
+}
+
+h4{
+  color:#808080;
+}
+
 div.bottone{
   display: inline-block;
   color: white;
-  padding: 0px 0;
+  padding: 0 0px;
   border: 2px solid white;
   border-radius: 8px;
 }
 
 div.bottone.pieno{
   background-color: #7cbb02;
+  padding: 0px 0;
   border-color: #7cbb02;
 }
 
@@ -98,6 +108,10 @@ div.logo{
   width:10%;
 }
 
+.logo img{
+  height: 30px;
+}
+
 
 nav.link-nav{
   width:55%;
@@ -113,47 +127,46 @@ nav li{
   list-style: none;
   display: inline-block;
   margin-right: 20px;
-  line-height: 42px;
+  line-height: 34px;
 
 
 
 }
 
-.text-box{
+.title-box{
   width: 50%;
   position:absolute;
   top: 50%;
   transform: translate(0%, -50%);
 }
 
-.text-box h2{
+.title-box h2{
   margin-bottom: 20px;
 }
 
-.img-container{
-  width:60%;
-  height: 400px;
-  float: right;
-  background-image: url(../img/background-header.png);
-  background-size: contain;
-  background-position: right;
-  background-repeat: no-repeat;
+.text-box{
+  text-align: center;
+  color: #000;
 }
 
-div.wide-container{
-  height: 60vh;
+
+div.bg-img.wide-container{
   background-image: url(../img/background-header.png);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: right bottom;
+  height:60vh;
 }
+
 
 .blue{
   background-color: #0C325A;
+
 }
 
 .gray{
   background-color: #D3D3D3;
+  padding: 40px 0;
 }
 
 .white{
