@@ -38,9 +38,9 @@ body{
   padding: 4px 10px;
   color: #fff;
   min-width: 80px;
-  padding: 2px 16px;
+  padding: 5px 16px;
   border: 1px solid white;
-  border-radius: 8px;
+  border-radius: 6px;
   text-align: center;
   line-height: initial;
 }
@@ -280,7 +280,7 @@ h3.col-title{
 
 .help{
   position: fixed;
-  bottom: 0;
+  bottom: 1%;
   left: 79%;
   padding: 9px 4px;
   min-width: 0px;
