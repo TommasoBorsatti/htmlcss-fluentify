@@ -55,11 +55,6 @@ body{
   padding: 20px 10px;
 }
 
-nav li a{
-  text-decoration: none;
-  color: #fff;
-  font-size: 12px;
-}
 
 /* /regole per bottoni */
 
@@ -104,7 +99,11 @@ h3.col-title{
   font-weight: 600;
 }
 
+.section-box h3{
+  color: #808080;
+  font-size: 18px;
 
+}
 
 /* /typo */
 
@@ -142,6 +141,12 @@ nav li{
   display: inline-block;
   margin-right: 20px;
   line-height: 35px;
+}
+
+nav li a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 12px;
 }
 
 /* /regole per sezione header blu */
@@ -242,20 +247,43 @@ h3.col-title{
 
 /* regole per seconda sezione grigia */
 
-.text-box-2 {
-  text-align: left;
-  padding-top:20px;
-  display: inline-block;
-  width: 55%;
+.text-box-2, .section-box{
+  float: left;
 }
 
+.text-box-2 {
+  text-align: left;
+  padding-top: 8px;
+  display: inline-block;
+  width: 62%;
+}
+
+.section-box {
+  width: 38%;
+}
 .section-box, .section-box h3, .section-box option{
   display: inline-block;
 }
 
 .section-box select{
-  padding: 0 40px;
-  margin: 0 20px;
+  padding: 0 25px;
+  margin: 0 15px;
+}
+
+.section-box option{
+  color: grey;
+}
+
+.help-button-box{
+  margin-top: 25px;
+}
+
+.help{
+  position: fixed;
+  bottom: 0;
+  left: 79%;
+  padding: 9px 4px;
+  min-width: 0px;
 }
 
 
