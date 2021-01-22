@@ -32,9 +32,11 @@ body{
 
 /* regole per bottoni */
 
-div.bottone{
+.bottone{
   display: inline-block;
-  color: white;
+  text-decoration: none;
+  padding: 4px 10px;
+  color: #fff;
   min-width: 80px;
   padding: 2px 16px;
   border: 1px solid white;
@@ -43,30 +45,14 @@ div.bottone{
   line-height: initial;
 }
 
-div.bottone.pieno{
+.bottone.pieno{
   background-color: #7cbb02;
-  padding: 2px; 0;
   border-color: #7cbb02;
 
 }
 
-div.bottone.grande{
-  padding: 20px 0;
-}
-
-div.bottone a{
-  display: inline-block;
-  text-decoration: none;
-  padding: 2px 10px;
-  color: #fff;
-}
-
-div.bottone.grande {
-  padding: 0px 8px;
-}
-
-div.bottone.grande a{
-  padding: 15px 15px;
+.bottone.grande{
+  padding: 20px 10px;
 }
 
 nav li a{
@@ -107,11 +93,18 @@ h3.col-title{
 
 }
 
+.text-box-2 h2{
+  font-size: 30px;
+
+}
+
 .wide-container.white a{
   font-size: 14px;
   color: #5586bc;
   font-weight: 600;
 }
+
+
 
 /* /typo */
 
@@ -119,8 +112,8 @@ h3.col-title{
 /* regole per sezione header blu */
 
 header{
-  padding-top: 10px;
-  padding-bottom: 30px;
+  padding-top: 20px;
+  padding-bottom: 80px;
 }
 
 div.box, nav.box{
@@ -158,7 +151,7 @@ nav li{
 .title-box{
   width: 50%;
   position:absolute;
-  top: 50%;
+  top: 40%;
   transform: translate(0%, -50%);
 }
 
@@ -167,12 +160,12 @@ nav li{
 }
 
 
-div.bg-img.wide-container{
+section.bg-img.wide-container{
   background-image: url(../img/background-header.png);
   background-size: contain;
   background-repeat: no-repeat;
-  background-position: right bottom;
-  height:60vh;
+  background-position: 110% bottom;
+  height:400px;
 }
 
 /* /regole per sezione main blu */
@@ -223,7 +216,7 @@ h3.col-title{
 /* regole per sezione immagine e titolo su sfondo bianco */
 .box-img > img{
   height: 500px;
-  margin-top: 50px;
+  margin: 50px 0 30px 40px;
 }
 
 .wide-container.white .text-box {
@@ -246,6 +239,27 @@ h3.col-title{
 
 
 /* /regole per sezione immagine e titolo su sfondo bianco */
+
+/* regole per seconda sezione grigia */
+
+.text-box-2 {
+  text-align: left;
+  padding-top:20px;
+  display: inline-block;
+  width: 55%;
+}
+
+.section-box, .section-box h3, .section-box option{
+  display: inline-block;
+}
+
+.section-box select{
+  padding: 0 40px;
+  margin: 0 20px;
+}
+
+
+/* /regole per seconda sezione grigia */
 
 /* regole per colori di sfondo delle macroaree */
 
