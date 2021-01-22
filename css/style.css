@@ -35,29 +35,38 @@ body{
 div.bottone{
   display: inline-block;
   color: white;
-  padding: 0 0;
+  min-width: 80px;
+  padding: 2px 16px;
   border: 1px solid white;
   border-radius: 8px;
+  text-align: center;
+  line-height: initial;
 }
 
 div.bottone.pieno{
   background-color: #7cbb02;
-  padding: 0 0;
+  padding: 2px; 0;
   border-color: #7cbb02;
+
 }
 
 div.bottone.grande{
-  padding: 28px 0;
+  padding: 20px 0;
 }
 
 div.bottone a{
+  display: inline-block;
   text-decoration: none;
-  padding: 8px 8px;
+  padding: 2px 10px;
   color: #fff;
 }
 
+div.bottone.grande {
+  padding: 0px 8px;
+}
+
 div.bottone.grande a{
-  padding: 28px 28px;
+  padding: 15px 15px;
 }
 
 nav li a{
